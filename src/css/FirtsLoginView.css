@@ -1,0 +1,30 @@
+
+.underline {
+    text-decoration: underline;
+    font-size: small;
+}
+.decorativeLine {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #000;
+}
+
+.orText {
+    margin: 0 10px;
+    font-weight: bold;
+}
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.socialIcons > *:not(:last-child) {
+    margin-right: 30px; /* Khoảng cách giữa các biểu tượng */
+}

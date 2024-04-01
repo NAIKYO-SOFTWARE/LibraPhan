@@ -1,0 +1,61 @@
+.app {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+    width: 90vw;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .button {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50vw;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      width: 100vw;
+    }
+  
+    .button {
+      width: 80vw;
+    }
+  }

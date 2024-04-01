@@ -1,0 +1,20 @@
+.homepage {
+    &__wrapper {
+      &-time {
+        background-color: var(--Lavender-Pink-color);
+        & .title {
+          padding-top: 20px;
+        }
+      }
+      &-filter {
+        & img {
+          margin-top: 50px;
+          height: 200px;
+        }
+      }
+      &-actives {
+        height: 280px;
+        overflow: scroll;
+      }
+    }
+  }
